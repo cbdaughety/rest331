@@ -1,6 +1,6 @@
 {
   "name": "project2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "REST API for COSC 331",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdwilsonfsu/rest331.git"
+    "url": "git+https://github.com/cbdaughety/rest331"
   },
-  "author": "Jake Wilson",
+  "author": "Cameron Daughety - cbdaughety",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jdwilsonfsu/rest331/issues"
+    "url": "https://github.com/cbdaughety/rest331/issues"
   },
-  "homepage": "https://github.com/jdwilsonfsu/rest331#readme",
+  "homepage": "https://github.com/cbdaughety/rest331#readme",
   "dependencies": {
     "express": "^4.16.3",
     "mongoose": "^5.0.17",
