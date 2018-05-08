@@ -1,9 +1,19 @@
 import express from 'express';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser';
 import routes from './src/routes/routes';
+
 
 
 const app = express();
 const PORT = 3000;
+
+//mongo connection
+mongoose.connect('mongodb://localhost:3000/rest331-master');
+
+//bodyparser
+app.use(bodyParser.urlencoded({ extended: true}));//parse incoming requests with urlencoded payloads
+app.use(bodyParser.json());//parser incoming requests with json payloads
 
 routes(app);
 
@@ -15,5 +25,5 @@ app.get('/', (req, res) => {
 
 //server is listening on this port
 app.listen(PORT, () => {
-    console.log(`the server is up and running on localhost:${PORT}`)
+    console.log(`the server is up and running on localhost: ${PORT}`)
 });
