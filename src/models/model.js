@@ -1,27 +1,27 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-const Scjema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
-export const ContrastSchema = new Schema({
-    firstName: {
-        type: String,
-        required: 'Enter first name'
-    },
-    lastName: {
-        type: String,
-        required: 'Enter last name'
-    },
-    email: {
-        type: String
-    },
-    company: {
-        type: String
-    },
-    phone: {
-        type: Number
-    },
-    create_date: {
-        type: Date,
-        default: Date.now
-    }
-})
+export const ContactSchema = new Schema({
+  firstName: {
+    type: String,
+    required: "Enter first name"
+  },
+  lastName: {
+    type: String,
+    required: "Enter last name"
+  },
+  email: {
+    type: String
+  },
+  company: {
+    type: String
+  },
+  phone: {
+    type: Number
+  },
+  create_date: {
+    type: Date,
+    default: Date.now
+  }
+});
