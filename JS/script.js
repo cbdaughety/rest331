@@ -1,1 +1,8 @@
 
+$(function (){
+
+  $.ajax({
+    type: 'GET'
+  })
+
+});
