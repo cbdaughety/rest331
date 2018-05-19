@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import routes from "./src/routes/routes";
 
 const app = express();
-const PORT = 3000;
+const PORT = 8000;
 
 //mongo connection
 mongoose.connect("mongodb://localhost/project2");
