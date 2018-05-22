@@ -8,6 +8,7 @@ Make an API backend in class then design the frontend at home.
     /2. cd Program files\MongoDB\Server\3.6\bin
     /3. type "mongod" to start the server
     /4. in VS Code, in the terminal type "npm start" to start the backend/API
+    /5. open index.html
 
 # Authors: Cameron Daughety
 
